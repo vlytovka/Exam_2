@@ -1,0 +1,47 @@
+.news {
+    background: url(../images/bg-news.jpg)no-repeat;
+    background-size: cover;
+    height: 100vh;
+    margin-bottom: 50px;
+    
+    &__title {
+        text-align: center;
+        margin: 100px auto;
+        text-transform: uppercase;
+        h5 {
+            text-transform: uppercase;
+        }
+    }
+
+    h2 {
+        text-transform: uppercase;
+        color: white;
+        font-size: 44px;
+        font-weight: 600;
+        margin-top: 100px;
+    }
+
+}
+
+.card-text {
+    font-weight: 400;
+}
+
+.text-author {
+    display: flex;
+    background: white;
+}
+
+.name-author {
+    margin-top: 10px;
+    width: 100%;
+    text-transform: uppercase;
+    font-weight: 400;
+    text-align: center;
+}
+
+.img-wrap {
+    border: solid 1px white;
+    border-radius: 50%;
+    overflow: hidden;
+}

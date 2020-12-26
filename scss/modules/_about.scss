@@ -1,0 +1,81 @@
+.about {
+    &__title {
+        text-align: center;
+        
+    }
+    h2 {
+        color: black;
+        text-transform: uppercase;
+        font-size: 44px;
+        margin-top: 100px;
+    }
+
+    &__block {
+        @include size(585px, 460px);
+        background: #55b7ff;
+        margin-top: 100px;
+    }
+}
+
+
+.wrap {
+    margin-top: -350px;
+
+    &__titleText {
+        font-size: 24px;
+        text-transform: uppercase;
+        font-weight: 400;
+    }
+
+    &__title {
+        margin-top: 20px;
+        font-size: 36px;
+        text-transform: uppercase;
+        font-weight: 600;
+    }
+
+    &__art {
+        margin-top: 40px;
+        font-size: 18px;
+        font-weight: 400;
+    }
+
+    &__btn {
+        margin-top: 40px;
+        border: solid 1px black;
+        padding: 20px 40px;
+        text-transform: uppercase;
+        text-decoration: none;
+        color: black;
+        background: white;
+    }
+
+    &__nav {
+        margin-top: 40px;
+        font-size: 14px;
+        font-weight: 400;
+        font-style: italic;
+    }
+}
+.color-block {
+    background: #7e5aff;
+
+}
+
+.more {
+    color: black;
+}
+
+.new__york {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.new__york svg {
+    width: 20px;
+    height: 20px;
+}
+
+h2.wrap__title {
+    margin-top: 5px;
+}
